@@ -1,10 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+
+
+* {
+     font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 25px;
+}
 
 body {
-    color: whitesmoke;
-    background-color: #393939;
-    padding-bottom: 50px; /* Same as footer height */
+    color: rgb(239, 239, 239);
+    background-color: #000000;
+    padding-bottom: 50px; 
 }
+
+.fish {
+    color:rgb(154, 225, 251);
+    font-size: 25px;
+}
+
 .parts {
     border: 2px solid pink;
     border-radius: 5px;
@@ -21,24 +41,61 @@ body {
     color: bisque;
 }
 .links:hover {
-    color:rgb(240, 162, 161)
+    background-color: rgb(240, 162, 161);
+    color:rgb(239, 239, 239);
 }
+
+.footer p{
+    font-size: 13px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+#username {
+    color:bisque;
+}
+
 #buh {
     font-size: 10px;
+    color: bisque;
+}
+
+#rule1 {
+    font-size: 8px;
+    color: bisque;
+}
+
+#username {
+    color: bisque;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #img {
+    padding-left: 15px;
+    width: 100px;
+    height: 100px;
     border: solid 0px;
     border-radius: 100%;
 }
-footer {
+.footer {
+    border: 2px solid pink;
+    border-radius: 5px;
     position: fixed;
     bottom: 0;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     width: 100%;
-    height: 50px; /* Set a fixed height for the footer */
-    background-color: #393939; /* Ensure footer background matches */
-    color: whitesmoke;
+    height: 45px; 
+    background-color: black;
+    color: rgb(239, 239, 239);
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
-/* Add padding to body to prevent content overlap with footer */
+
